@@ -19,7 +19,11 @@ func main(){
 	var age int = 25
 	var height float32 = 1.79
 	var weight uint8 = 97
+	var one,two,three int
+	one = 1
+	two = 2
+	three = 3
 
 	fmt.Println("Here we go", name, word)
-	fmt.Println("You are ", age , height , weight  )
+	fmt.Println("You are ", age , height , weight, one,two,three  )
 }
