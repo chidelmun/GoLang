@@ -26,4 +26,6 @@ func main(){
 
 	fmt.Println("Here we go", name, word)
 	fmt.Println("You are ", age , height , weight, one,two,three  )
+
+	fmt.Printf("%T, %T, %T\n", age, height, weight)
 }
