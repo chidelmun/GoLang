@@ -24,6 +24,9 @@ func main(){
 	two = 2
 	three = 3
 
+	var a,b,c = 22,44,"word"
+	fmt.Println(a,b,c)
+
 	fmt.Println("Here we go", name, word)
 	fmt.Println("You are ", age , height , weight, one,two,three  )
 
