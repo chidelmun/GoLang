@@ -12,8 +12,5 @@ import "fmt"
 
 func main(){
 	
-	const Name string = "Dario"
-
-	const PI float32 = 3.1415
-	fmt.Println(Name, PI)
+	fmt.Println(4<5,4&5,4>5,4!=5,4==4,4|5)
 }
