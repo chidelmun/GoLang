@@ -11,7 +11,14 @@ import "fmt"
 
 
 func main(){
-	
-	fmt.Println(4<5,4&5,4>5,4!=5,4==4,4|5)
-	fmt.Println(4>>1,4<<1, 4^5)
+	var num int = 50
+
+	if num < 100{
+		fmt.Println(num < 100)
+	}else if num == 100{
+		fmt.Println("Numbers are equal")
+	}else{
+		fmt.Println("Number is greater than 100")
+	}	
+
 }
