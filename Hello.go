@@ -13,4 +13,5 @@ import "fmt"
 func main(){
 	
 	fmt.Println(4<5,4&5,4>5,4!=5,4==4,4|5)
+	fmt.Println(4>>1,4<<1, 4^5)
 }
