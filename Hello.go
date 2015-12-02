@@ -12,13 +12,11 @@ import "fmt"
 
 func main(){
 	var num int = 50
+	
+	for num < 100{
+		fmt.Println(num)
+		num ++
 
-	if num < 100{
-		fmt.Println(num < 100)
-	}else if num == 100{
-		fmt.Println("Numbers are equal")
-	}else{
-		fmt.Println("Number is greater than 100")
 	}	
 
 }
