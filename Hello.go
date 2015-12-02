@@ -9,14 +9,15 @@ package main
 
 import "fmt"
 
+func max(a,b int) int {
+	if a > b{
+		return a
+	}else{
+		return b
+	}
+}
 
 func main(){
-	var num int = 50
-	
-	for num < 100{
-		fmt.Println(num)
-		num ++
-
-	}	
+fmt.Println(max(4,5))
 
 }
