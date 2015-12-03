@@ -20,4 +20,10 @@ func max(a,b int) int {
 func main(){
 fmt.Println(max(4,5))
 
+fmt.Println(swap("Hello", "World"))
+
+}
+
+func swap(a,b string) (string, string){
+	return b,a
 }
